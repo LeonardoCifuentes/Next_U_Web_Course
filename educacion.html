@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">        
+        <meta name="author" content="Leonardo Cifuentes">
+        <meta name="description" content="Resume"> 
+        <meta name="theme-color" content="#fff"> 
+        <title>Curriculo</title>        
+    </head>
+
+    <body>   
+        <header>
+            <img src="img/logo.svg" alt="Isotipo" width="300">
+            <h1>Resumen Curricular</h1>
+            <h2>Leonardo Cifuentes</h2>
+            <h3>Fecha de nacimiento: 1 Septiembre 1987, Bogotá</h3>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="educacion.html">Educación</a>
+                <a href="experiencia.html">Experiencia</a>
+            </nav>
+        </header>
+        <section>
+            <h2>Educación</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Lugar</th>
+                        <th>¿Culmino?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2003</td>
+                        <td>IED John F. Kennedy</td>
+                        <td>Bogotá</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>Universidad Nacional</td>
+                        <td>Bogotá</td>
+                        <td>Sí</td>
+                    </tr>
+                </tbody>
+            </table>
+            <form>
+                <fieldset>
+                    <legend>Agregar Estudios</legend>
+                    <select>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                    </select>
+                    <p>
+                        <label for="institucion">Intitución:</label>
+                        <input type="text" id="institucion" required maxlength="200">
+                    </p>
+                    <p>
+                        <label for="Lugar">Lugar:</label>
+                        <textarea name="area de texto" id="Lugar" cols="25"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <h3>Contacto:</h3>
+            <p><strong>Correo:</strong> jackoleo@gmail.com</p>
+            <p><strong>Teléfono:</strong> +57 3125007999</p>
+            <p><strong>Twitter:</strong> @LeoDGasi</p>
+        </footer>
+    </body>
+</html>
